@@ -4,11 +4,11 @@ import importlib
 from pyrogram import idle
 
 import config
-from SONALI import LOGGER, app, userbot
-from SONALI.core.call import RAUSHAN
-from SONALI.misc import sudo
-from SONALI.plugins import ALL_MODULES
-from SONALI.utils.database import get_banned_users, get_gbanned
+from AmritaXMusic import LOGGER, app, userbot
+from AmritaXMusic.core.call import RAUSHAN
+from AmritaXMusic.misc import sudo
+from AmritaXMusic.plugins import ALL_MODULES
+from AmritaXMusic.utils.database import get_banned_users, get_gbanned
 from config import BANNED_USERS
 
 
@@ -36,16 +36,16 @@ async def init():
         pass
     await app.start()
     for all_module in ALL_MODULES:
-        importlib.import_module("SONALI.plugins" + all_module)
-    LOGGER("SONALI.plugins").info("𝐀𝐥𝐥 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬 𝐋𝐨𝐚𝐝𝐞𝐝 𝐁𝐚𝐛𝐲🥳...")
+        importlib.import_module("AmritaXMusic.plugins" + all_module)
+    LOGGER("AmritaXMusic.plugins").info("𝐀𝐥𝐥 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬 𝐋𝐨𝐚𝐝𝐞𝐝 𝐁𝐚𝐛𝐲🥳...")
     await userbot.start()
     await RAUSHAN.start()
     await RAUSHAN.decorators()
-    LOGGER("SONALI").info("╔═════ஜ۩۞۩ஜ════╗\n  ♨️𝗠𝗔𝗗𝗘 𝗕𝗬 𝗔𝗟𝗣𝗛𝗔♨️\n╚═════ஜ۩۞۩ஜ════╝")
+    LOGGER("AmritaXMusic").info("╔═════ஜ۩۞۩ஜ════╗\n  ♨️𝗠𝗔𝗗𝗘 𝗕𝗬 𝗔𝗟𝗣𝗛𝗔♨️\n╚═════ஜ۩۞۩ஜ════╝")
     await idle()
     await app.stop()
     await userbot.stop()
-    LOGGER("SONALI").info("╔═════ஜ۩۞۩ஜ════╗\n  ♨️𝗠𝗔𝗗𝗘 𝗕𝗬 𝗔𝗟𝗣𝗛𝗔♨️\n╚═════ஜ۩۞۩ஜ════╝")
+    LOGGER("AmritaXMusic").info("╔═════ஜ۩۞۩ஜ════╗\n  ♨️𝗠𝗔𝗗𝗘 𝗕𝗬 𝗔𝗟𝗣𝗛𝗔♨️\n╚═════ஜ۩۞۩ஜ════╝")
 
 
 if __name__ == "__main__":
