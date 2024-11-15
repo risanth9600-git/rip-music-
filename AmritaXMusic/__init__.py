@@ -1,8 +1,8 @@
-from SONALI.core.bot import RAUSHAN
-from SONALI.core.dir import dirr
-from SONALI.core.git import git
-from SONALI.core.userbot import Userbot
-from SONALI.misc import dbb, heroku
+from AmritaXMusic.core.bot import RAUSHAN
+from AmritaXMusic.core.dir import dirr
+from AmritaXMusic.core.git import git
+from AmritaXMusic.core.userbot import Userbot
+from AmritaXMusic.misc import dbb, heroku
 
 from SafoneAPI import SafoneAPI
 from .logging import LOGGER
