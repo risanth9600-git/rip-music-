@@ -1,8 +1,8 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from SONALI import app
-from SONALI.core.call import RAUSHAN
+from AmritaXMusic import app
+from AmritaXMusic.core.call import RAUSHAN
 
 welcome = 20
 close = 30
