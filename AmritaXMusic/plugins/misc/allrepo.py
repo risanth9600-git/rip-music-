@@ -1,7 +1,7 @@
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 import requests
-from SONALI import app
+from AmritaXMusic import app
 
 # Function to chunk the repository info into smaller parts
 def chunk_string(text, chunk_size):
@@ -52,6 +52,6 @@ def get_all_repository_info(github_username):
 [
                                 InlineKeyboardButton(
                                     "𝖩ᴏɪɴ 𝖳ᴇᴀᴍ 𝖯ᴜʀᴠɪ 𝖡ᴏᴛs",
-                                    url="t.me/purvi_support"
+                                    url="t.me/The_Architect04"
                                 )
 ]
