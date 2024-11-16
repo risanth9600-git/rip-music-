@@ -1,9 +1,9 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from SONALI import app
-from SONALI.misc import SUDOERS
-from SONALI.utils.database import (
+from AmritaXMusic import app
+from AmritaXMusic.misc import SUDOERS
+from AmritaXMusic.utils.database import (
     get_lang,
     is_maintenance,
     maintenance_off,
