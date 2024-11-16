@@ -6,23 +6,23 @@ from pyrogram.types import InlineKeyboardButton
 from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
-from SONALI import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
-from SONALI.core.call import RAUSHAN
-from SONALI.utils import seconds_to_min, time_to_seconds
-from SONALI.utils.channelplay import get_channeplayCB
-from SONALI.utils.decorators.language import languageCB
-from SONALI.utils.decorators.play import PlayWrapper
-from SONALI.utils.database import is_served_user
-from SONALI.utils.formatters import formats
-from SONALI.utils.inline import (
+from AmritaXMusic import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
+from AmritaXMusic.core.call import RAUSHAN
+from AmritaXMusic.utils import seconds_to_min, time_to_seconds
+from AmritaXMusic.utils.channelplay import get_channeplayCB
+from AmritaXMusic.utils.decorators.language import languageCB
+from AmritaXMusic.utils.decorators.play import PlayWrapper
+from AmritaXMusic.utils.database import is_served_user
+from AmritaXMusic.utils.formatters import formats
+from AmritaXMusic.utils.inline import (
     botplaylist_markup,
     livestream_markup,
     playlist_markup,
     slider_markup,
     track_markup,
 )
-from SONALI.utils.logger import play_logs
-from SONALI.utils.stream.stream import stream
+from AmritaXMusic.utils.logger import play_logs
+from AmritaXMusic.utils.stream.stream import stream
 from config import BANNED_USERS, lyrical
 
 
