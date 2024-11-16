@@ -51,7 +51,7 @@ def get_all_repository_info(github_username):
 
 [
                                 InlineKeyboardButton(
-                                    "𝖩ᴏɪɴ 𝖳ᴇᴀᴍ 𝖯ᴜʀᴠɪ 𝖡ᴏᴛs",
+                                    "𝙏𝙝𝙚 𝘼𝙧𝙘𝙝𝙞𝙩𝙚𝙘𝙩",
                                     url="t.me/The_Architect04"
                                 )
 ]
