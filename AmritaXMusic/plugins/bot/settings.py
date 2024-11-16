@@ -10,8 +10,8 @@ from pyrogram.types import (
     InputMediaVideo,
 )
 
-from SONALI import app
-from SONALI.utils.database import (
+from AmritaXMusic import app
+from AmritaXMusic.utils.database import (
     add_nonadmin_chat,
     get_authuser,
     get_authuser_names,
@@ -27,15 +27,15 @@ from SONALI.utils.database import (
     skip_off,
     skip_on,
 )
-from SONALI.utils.decorators.admins import ActualAdminCB
-from SONALI.utils.decorators.language import language, languageCB
-from SONALI.utils.inline.settings import (
+from AmritaXMusic.utils.decorators.admins import ActualAdminCB
+from AmritaXMusic.utils.decorators.language import language, languageCB
+from AmritaXMusic.utils.inline.settings import (
     auth_users_markup,
     playmode_users_markup,
     setting_markup,
     vote_mode_markup,
 )
-from SONALI.utils.inline.start import private_panel
+from AmritaXMusic.utils.inline.start import private_panel
 from config import BANNED_USERS, OWNER_ID, START_IMG_URL
 
 
@@ -54,7 +54,7 @@ async def settings_mar(client, message: Message, _):
 @languageCB
 async def gib_repo(client, CallbackQuery, _):
     await CallbackQuery.edit_message_media(
-        InputMediaVideo("https://telegra.ph/file/136b8c8380fb100ab3efa.mp4"),
+        InputMediaVideo(https://envs.sh/5DB.mp4),
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data=f"settingsback_helper")]]
         ),
