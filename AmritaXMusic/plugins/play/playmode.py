@@ -1,10 +1,10 @@
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, Message
 
-from SONALI import app
-from SONALI.utils.database import get_playmode, get_playtype, is_nonadmin_chat
-from SONALI.utils.decorators import language
-from SONALI.utils.inline.settings import playmode_users_markup
+from AmritaXMusic import app
+from AmritaXMusic.utils.database import get_playmode, get_playtype, is_nonadmin_chat
+from AmritaXMusic.utils.decorators import language
+from AmritaXMusic.utils.inline.settings import playmode_users_markup
 from config import BANNED_USERS
 
 
