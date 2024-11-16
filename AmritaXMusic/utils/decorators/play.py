@@ -9,9 +9,9 @@ from pyrogram.errors import (
 )
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from SONALI import YouTube, app
-from SONALI.misc import SUDOERS
-from SONALI.utils.database import (
+from AmritaXMusic import YouTube, app
+from AmritaXMusic.misc import SUDOERS
+from AmritaXMusic.utils.database import (
     get_assistant,
     get_cmode,
     get_lang,
@@ -20,7 +20,7 @@ from SONALI.utils.database import (
     is_active_chat,
     is_maintenance,
 )
-from SONALI.utils.inline import botplaylist_markup
+from AmritaXMusic.utils.inline import botplaylist_markup
 from config import PLAYLIST_IMG_URL, SUPPORT_CHAT, adminlist
 from strings import get_string
 
