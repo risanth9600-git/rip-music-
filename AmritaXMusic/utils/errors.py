@@ -3,8 +3,8 @@ import traceback
 from functools import wraps
 
 from pyrogram.errors.exceptions.forbidden_403 import ChatWriteForbidden
-from SONALI import app
-from SONALI.logging import LOGGER
+from AmritaXMusic import app
+from AmritaXMusic.logging import LOGGER
 
 
 def split_limits(text):
