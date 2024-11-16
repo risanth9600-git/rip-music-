@@ -5,8 +5,8 @@ from pyrogram.types import (
 )
 from youtubesearchpython.__future__ import VideosSearch
 
-from SONALI import app
-from SONALI.utils.inlinequery import answer
+from AmritaXMusic import app
+from AmritaXMusic.utils.inlinequery import answer
 from config import BANNED_USERS
 
 
