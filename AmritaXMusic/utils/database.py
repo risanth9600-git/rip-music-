@@ -1,8 +1,8 @@
 import random
 from typing import Dict, List, Union
 
-from SONALI import userbot
-from SONALI.core.mongo import mongodb
+from AmritaXMusic import userbot
+from AmritaXMusic.core.mongo import mongodb
 
 authdb = mongodb.adminauth
 authuserdb = mongodb.authuser
