@@ -1,7 +1,7 @@
 import asyncio
 
-from SONALI.misc import db
-from SONALI.utils.database import get_active_chats, is_music_playing
+from AmritaXMusic.misc import db
+from AmritaXMusic.utils.database import get_active_chats, is_music_playing
 
 
 async def timer():
