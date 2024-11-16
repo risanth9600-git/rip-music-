@@ -1,9 +1,9 @@
 from pyrogram import filters
 
-from SONALI import YouTube, app
-from SONALI.utils.channelplay import get_channeplayCB
-from SONALI.utils.decorators.language import languageCB
-from SONALI.utils.stream.stream import stream
+from AmritaXMusic import YouTube, app
+from AmritaXMusic.utils.channelplay import get_channeplayCB
+from AmritaXMusic.utils.decorators.language import languageCB
+from AmritaXMusic.utils.stream.stream import stream
 from config import BANNED_USERS
 
 
