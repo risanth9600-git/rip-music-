@@ -2,13 +2,13 @@ from pyrogram import filters
 from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery
 from pyrogram.types import Message
 from strings import get_string, helpers
-from SONALI import app
+from AmritaXMusic import app
 from pyrogram.types import InputMediaVideo
-from SONALI.misc import SUDOERS
-from SONALI.utils.database import add_sudo, remove_sudo
-from SONALI.utils.decorators.language import language
-from SONALI.utils.extraction import extract_user
-from SONALI.utils.inline import close_markup
+from AmritaXMusic.misc import SUDOERS
+from AmritaXMusic.utils.database import add_sudo, remove_sudo
+from AmritaXMusic.utils.decorators.language import language
+from AmritaXMusic.utils.extraction import extract_user
+from AmritaXMusic.utils.inline import close_markup
 from config import BANNED_USERS, OWNER_ID
 
 
@@ -61,7 +61,7 @@ async def sudoers_list(client, message: Message):
 async def check_sudo_list(client, callback_query: CallbackQuery):
     keyboard = []
     if callback_query.from_user.id not in SUDOERS:
-        return await callback_query.answer("ᴍɪᴄᴋᴇʏ ᴋᴀ ʟᴜɴᴅ ʟᴇɢᴀ 😂 \n sᴜᴅᴏʟɪsᴛ ᴅᴇᴋʜɴᴇ ᴀᴀʏᴀ ᴍᴄ 🤧🖕", show_alert=True)
+        return await callback_query.answer("ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴍʏ ꜱᴜᴅᴏ 😝 ᴛʜɪꜱ ʟɪꜱᴛ ᴏɴʟʏ ᴏᴘᴇɴ ᴏᴡɴᴇʀ ᴀɴᴅ ꜱᴜᴅᴏ ᴏɴʟʏ 😏", show_alert=True)
     else:
         user = await app.get_users(OWNER_ID)
 
