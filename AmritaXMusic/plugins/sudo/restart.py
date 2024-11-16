@@ -16,15 +16,15 @@ from pyrogram.types import (
 from io import BytesIO
 from pyrogram import filters
 import config
-from SONALI import app
-from SONALI.misc import HAPP, SUDOERS, XCB
-from SONALI.utils.database import (
+from AmritaXMusic import app
+from AmritaXMusic.misc import HAPP, SUDOERS, XCB
+from AmritaXMusic.utils.database import (
     get_active_chats,
     remove_active_chat,
     remove_active_video_chat,
 )
-from SONALI.utils.decorators.language import language
-from SONALI.utils.pastebin import RAUSHANBin
+from AmritaXMusic.utils.decorators.language import language
+from AmritaXMusic.utils.pastebin import RAUSHANBin
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
