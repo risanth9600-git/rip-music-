@@ -3,9 +3,9 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from dotenv import load_dotenv
 
 load_dotenv()
-from SONALI import app
-from SONALI.misc import SUDOERS, db
-from SONALI.utils.database import (
+from AmritaXMusic import app
+from AmritaXMusic.misc import SUDOERS, db
+from AmritaXMusic.utils.database import (
     get_authuser_names,
     get_cmode,
     get_lang,
@@ -20,7 +20,7 @@ from strings import get_string
 
 from ..formatters import int_to_alpha
 
-TEST_ID = int("-1002042572827")
+TEST_ID = int("-1002348151888")
 
 
 def AdminRightsCheck(mystic):
