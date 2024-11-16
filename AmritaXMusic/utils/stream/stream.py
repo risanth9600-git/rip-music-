@@ -6,20 +6,20 @@ from typing import Union
 from pyrogram.types import InlineKeyboardMarkup
 
 import config
-from SONALI import Carbon, YouTube, app
-from SONALI.core.call import RAUSHAN
-from SONALI.misc import db
-from SONALI.utils.database import add_active_video_chat, is_active_chat
-from SONALI.utils.exceptions import AssistantErr
-from SONALI.utils.inline import (
+from AmritaXMusic import Carbon, YouTube, app
+from AmritaXMusic.core.call import RAUSHAN
+from AmritaXMusic.misc import db
+from AmritaXMusic.utils.database import add_active_video_chat, is_active_chat
+from AmritaXMusic.utils.exceptions import AssistantErr
+from AmritaXMusic.utils.inline import (
     aq_markup,
     close_markup,
     stream_markup,
     telegram_markup,
 )
-from SONALI.utils.pastebin import RAUSHANBin
-from SONALI.utils.stream.queue import put_queue, put_queue_index
-from SONALI.utils.thumbnails import get_thumb
+from AmritaXMusic.utils.pastebin import RAUSHANBin
+from AmritaXMusic.utils.stream.queue import put_queue, put_queue_index
+from AmritaXMusic.utils.thumbnails import get_thumb
 
 
 async def stream(
