@@ -14,10 +14,6 @@
 <a href="https://github.com/Marwin040/AmritaXMusic/commits/Marwin040"> <img src="https://img.shields.io/github/last-commit/Marwin040/AmritaXMusic?color=blue&logo=github&logoColor=green&style=for-the-badge" /></a>
 </p>
 
-<p align="center">
-  <img src="https://telegra.ph/file/95ce116fbdbeb43f8cc9d-1b4376b24fe4b0c951.jpg">
-</p>
-
 <h3 align="center">
     ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ 」─
 </h3>
