@@ -44,15 +44,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/yourtoofan/Zoyu1",
+    "https://github.com/Marwin040/AmritaXMusic",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/The_incricible")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT","https://t.me/DPS_WORLD_XD")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Team_Supporty")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT","https://t.me/Team_Supporty")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -64,7 +64,7 @@ SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", None)
 
 
 # Maximum limit for fetching playlist's track from youtube, spotify, apple links.
-PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", 25))
+PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", 555))
 
 
 # Telegram audio and video file size limit (in bytes)
@@ -90,13 +90,13 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/ruyh1i.jpg"
+    "START_IMG_URL", "https://graph.org/file/008f4a8c15ec78bf58df6-061436e950eff5a7b4.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://envs.sh/nvp.jpg"
+    "PING_IMG_URL", "https://graph.org/file/4c73e36134792a1fb7e2d-6794a433363ce8129f.jpg"
 )
-PLAYLIST_IMG_URL = "https://telegra.ph/file/9acd828ec45a363add2e9.jpg"
-STATS_IMG_URL = "https://files.catbox.moe/yfvai0.jpg"
+PLAYLIST_IMG_URL = "https://envs.sh/_IP.jpg"
+STATS_IMG_URL = "https://graph.org/file/6c0931e09023215919ad3-39d8af3f77055ff864.jpg"
 TELEGRAM_AUDIO_URL = "https://telegra.ph/file/51cb8a22e65caa4382879.jpg"
 TELEGRAM_VIDEO_URL = "https://telegra.ph/file/51cb8a22e65caa4382879.jpg"
 STREAM_IMG_URL = "https://te.legra.ph/file/bd995b032b6bd263e2cc9.jpg"
