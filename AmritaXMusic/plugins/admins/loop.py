@@ -1,10 +1,10 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from SONALI import app
-from SONALI.utils.database import get_loop, set_loop
-from SONALI.utils.decorators import AdminRightsCheck
-from SONALI.utils.inline import close_markup
+from AmritaXMusic import app
+from AmritaXMusic.utils.database import get_loop, set_loop
+from AmritaXMusic.utils.decorators import AdminRightsCheck
+from AmritaXMusic.utils.inline import close_markup
 from config import BANNED_USERS
 
 
