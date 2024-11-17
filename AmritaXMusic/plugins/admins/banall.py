@@ -1,9 +1,9 @@
-from SONALI import app
+from AmritaXMusic import app
 from config import OWNER_ID
 from pyrogram import filters, enums
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
-from SONALI.utils.RAUSHAN_ban import admin_filter
-from SONALI.misc import SUDOERS
+from AmritaXMusic.utils.RAUSHAN_ban import admin_filter
+from AmritaXMusic.misc import SUDOERS
 
 BOT_ID = app.me.id  # Corrected this line
 
