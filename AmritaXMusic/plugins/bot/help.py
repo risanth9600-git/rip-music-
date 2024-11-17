@@ -112,4 +112,5 @@ async def mb_plugin_button(client, CallbackQuery):
     if cb == "Okieeeeee":
         await CallbackQuery.edit_message_text(f"`something errors`",reply_markup=keyboard,parse_mode=enums.ParseMode.MARKDOWN)
     else:
+        await CallbackQuery.edit_message_text(getattr(Helper, cb), reply_markup=keyboard)
         
