@@ -17,17 +17,17 @@ from AmritaXMusic.utils.database import (
     music_on,
     set_loop,
 )
-from SONALI.utils.decorators.language import languageCB
-from SONALI.utils.formatters import seconds_to_min
-from SONALI.utils.inline import (
+from AmritaXMusic.utils.decorators.language import languageCB
+from AmritaXMusic.utils.formatters import seconds_to_min
+from AmritaXMusic.utils.inline import (
     close_markup,
     stream_markup,
     stream_markup_timer,
     telegram_markup,
     telegram_markup_timer,
 )
-from SONALI.utils.stream.autoclear import auto_clean
-from SONALI.utils.thumbnails import get_thumb
+from AmritaXMusic.utils.stream.autoclear import auto_clean
+from AmritaXMusic.utils.thumbnails import get_thumb
 from config import (
     BANNED_USERS,
     SOUNCLOUD_IMG_URL,
