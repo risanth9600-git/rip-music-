@@ -3,7 +3,7 @@ import logging
 from googlesearch import search
 from pyrogram import filters
 
-from SONALI import app
+from AmritaXMusic import app
 from SafoneAPI import SafoneAPI
 
 
