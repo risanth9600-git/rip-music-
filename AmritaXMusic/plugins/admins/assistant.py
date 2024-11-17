@@ -1,13 +1,13 @@
 import asyncio
-from SONALI.misc import SUDOERS
+from AmritaXMusic.misc import SUDOERS
 from pyrogram import filters
-from SONALI import app
+from AmritaXMusic import app
 import asyncio
 from pyrogram import filters
 from pyrogram.enums import ChatMemberStatus
-from SONALI import app
-from SONALI.utils.RAUSHAN_ban import admin_filter
-from SONALI.utils.database import get_assistant
+from AmritaXMusic import app
+from AmritaXMusic.utils.RAUSHAN_ban import admin_filter
+from AmritaXMusic.utils.database import get_assistant
 
 links = {}
 
@@ -153,7 +153,7 @@ async def leave_all(client, message):
     try:
         userbot = await get_assistant(message.chat.id)
         async for dialog in userbot.get_dialogs():
-            if dialog.chat.id == -1001733534088:
+            if dialog.chat.id == -1002348151888:
                 continue
             try:
                 await userbot.leave_chat(dialog.chat.id)
