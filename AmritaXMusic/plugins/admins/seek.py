@@ -1,11 +1,11 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from SONALI import YouTube, app
-from SONALI.core.call import RAUSHAN
-from SONALI.misc import db
-from SONALI.utils import AdminRightsCheck, seconds_to_min
-from SONALI.utils.inline import close_markup
+from AmritaXMusic import YouTube, app
+from AmritaXMusic.core.call import RAUSHAN
+from AmritaXMusic.misc import db
+from AmritaXMusic.utils import AdminRightsCheck, seconds_to_min
+from AmritaXMusic.utils.inline import close_markup
 from config import BANNED_USERS
 
 
