@@ -13,12 +13,12 @@ from pyrogram import filters
 
 load_dotenv()
 
-from SONALI import app
-from SONALI.core.call import RAUSHAN
-from SONALI.misc import db
-from SONALI.utils.database import get_assistant, get_authuser_names, get_cmode
-from SONALI.utils.decorators import ActualAdminCB, AdminActual, language
-from SONALI.utils.formatters import alpha_to_int, get_readable_time
+from AmritaXMusic import app
+from AmritaXMusic.core.call import RAUSHAN
+from AmritaXMusic.misc import db
+from AmritaXMusic.utils.database import get_assistant, get_authuser_names, get_cmode
+from AmritaXMusic.utils.decorators import ActualAdminCB, AdminActual, language
+from AmritaXMusic.utils.formatters import alpha_to_int, get_readable_time
 from config import BANNED_USERS, adminlist, lyrical
 BOT_TOKEN = getenv("BOT_TOKEN", "")
 MONGO_DB_URI = getenv("MONGO_DB_URI", "")
