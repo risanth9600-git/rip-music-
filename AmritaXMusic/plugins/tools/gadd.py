@@ -2,9 +2,9 @@ import asyncio
 
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
-OWNERS = "7520092354"
-from SONALI import app
-from SONALI.utils.database import add_served_chat, get_assistant
+OWNERS = "7224419362"
+from AmritaXMusic import app
+from AmritaXMusic.utils.database import add_served_chat, get_assistant
 
 
 @app.on_message(filters.command("gadd") & filters.user(int(OWNERS)))
