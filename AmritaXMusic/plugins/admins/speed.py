@@ -1,13 +1,13 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from SONALI import app
-from SONALI.core.call import RAUSHAN
-from SONALI.misc import SUDOERS, db
-from SONALI.utils import AdminRightsCheck
-from SONALI.utils.database import is_active_chat, is_nonadmin_chat
-from SONALI.utils.decorators.language import languageCB
-from SONALI.utils.inline import close_markup, speed_markup
+from AmritaXMusic import app
+from AmritaXMusic.core.call import RAUSHAN
+from AmritaXMusic.misc import SUDOERS, db
+from AmritaXMusic.utils import AdminRightsCheck
+from AmritaXMusic.utils.database import is_active_chat, is_nonadmin_chat
+from AmritaXMusic.utils.decorators.language import languageCB
+from AmritaXMusic.utils.inline import close_markup, speed_markup
 from config import BANNED_USERS, adminlist
 
 checker = []
