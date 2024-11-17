@@ -8,14 +8,14 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from pyrogram.enums import *
 
 #BOT FILE NAME
-from SONALI import app as app
-from SONALI.mongo.couples_db import _get_image, get_couple
+from AmritaXMusic import app as app
+from AmritaXMusic.mongo.couples_db import _get_image, get_couple
 
 POLICE = [
     [
         InlineKeyboardButton(
             text="|| ˹𖤍 𝗔𝗗𝗗 𝗠𝗘 𝗧𝗢 𝗚𝗥𝗢𝗨𝗣𖤍˼ ||",
-            url=f"https://t.me/zoyumusicbot?startgroup=true",
+            url=f"https://t.me/AmritaMusicBot?startgroup=true",
         ),
     ],
 ]
