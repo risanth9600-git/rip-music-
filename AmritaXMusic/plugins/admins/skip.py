@@ -2,14 +2,14 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, Message
 
 import config
-from SONALI import YouTube, app
-from SONALI.core.call import RAUSHAN
-from SONALI.misc import db
-from SONALI.utils.database import get_loop
-from SONALI.utils.decorators import AdminRightsCheck
-from SONALI.utils.inline import close_markup, stream_markup, telegram_markup
-from SONALI.utils.stream.autoclear import auto_clean
-from SONALI.utils.thumbnails import get_thumb
+from AmritaXMusic import YouTube, app
+from AmritaXMusic.core.call import RAUSHAN
+from AmritaXMusic.misc import db
+from AmritaXMusic.utils.database import get_loop
+from AmritaXMusic.utils.decorators import AdminRightsCheck
+from AmritaXMusic.utils.inline import close_markup, stream_markup, telegram_markup
+from AmritaXMusic.utils.stream.autoclear import auto_clean
+from AmritaXMusic.utils.thumbnails import get_thumb
 from config import BANNED_USERS
 
 
