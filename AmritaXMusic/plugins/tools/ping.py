@@ -1,11 +1,11 @@
 from datetime import datetime
 from pyrogram import filters
 from pyrogram.types import Message, InlineKeyboardMarkup
-from SONALI import app
-from SONALI.core.call import RAUSHAN
-from SONALI.utils import bot_sys_stats
-from SONALI.utils.inline.extras import botplaylist_markup
-from SONALI.utils.decorators.language import language
+from AmritaXMusic import app
+from AmritaXMusic.core.call import RAUSHAN
+from AmritaXMusic.utils import bot_sys_stats
+from AmritaXMusic.utils.inline.extras import botplaylist_markup
+from AmritaXMusic.utils.decorators.language import language
 from config import BANNED_USERS, PING_IMG_URL
 import aiohttp
 import asyncio
