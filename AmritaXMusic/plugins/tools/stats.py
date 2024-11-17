@@ -9,13 +9,13 @@ from pyrogram.types import InputMediaPhoto, Message
 from pytgcalls.__version__ import __version__ as pytgver
 
 import config
-from SONALI import app
-from SONALI.core.userbot import assistants
-from SONALI.misc import SUDOERS, mongodb
-from SONALI.plugins import ALL_MODULES
-from SONALI.utils.database import get_served_chats, get_served_users, get_sudoers
-from SONALI.utils.decorators.language import language, languageCB
-from SONALI.utils.inline.stats import back_stats_buttons, stats_buttons
+from AmritaXMusic import app
+from AmritaXMusic.core.userbot import assistants
+from AmritaXMusic.misc import SUDOERS, mongodb
+from AmritaXMusic.plugins import ALL_MODULES
+from AmritaXMusic.utils.database import get_served_chats, get_served_users, get_sudoers
+from AmritaXMusic.utils.decorators.language import language, languageCB
+from AmritaXMusic.utils.inline.stats import back_stats_buttons, stats_buttons
 from config import BANNED_USERS
 
 
