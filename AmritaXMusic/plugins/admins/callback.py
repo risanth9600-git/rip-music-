@@ -3,10 +3,10 @@ import asyncio
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from SONALI import YouTube, app
-from SONALI.core.call import RAUSHAN
-from SONALI.misc import SUDOERS, db
-from SONALI.utils.database import (
+from AmritaXMusic import YouTube, app
+from AmritaXMusic.core.call import RAUSHAN
+from AmritaXMusic.misc import SUDOERS, db
+from AmritaXMusic.utils.database import (
     get_active_chats,
     get_lang,
     get_upvote_count,
