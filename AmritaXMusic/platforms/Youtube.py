@@ -310,7 +310,7 @@ class YouTubeAPI:
                     {
                         "key": "FFmpegExtractAudio",
                         "preferredcodec": "mp3",
-                        "preferredquality": "8000",
+                        "preferredquality": "192",
                     }
                 ],
                 "cookiefile": cookies_file,  # Add cookie file option here
