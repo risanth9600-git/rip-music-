@@ -44,7 +44,7 @@
    ```
 5. **Clone the Repository**
    ```bash
-   git clone https://github.com/CyberPixelPro/AviaxMusic && cd AviaxMusic
+   git clone https://github.com/Marwin040/AmritaXMusic && cd AmritaXMusic
    ```
 6. **Install Requirements**
    ```bash
