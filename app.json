@@ -1,10 +1,10 @@
 {
 
-    "name": "AmritaX Music",
+    "name": "AmrtaX Music",
 
     "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
 
-    "logo": "m",
+    "logo": "https://envs.sh/5S5.jpg",
 
     "keywords": [
 
