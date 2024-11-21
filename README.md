@@ -7,9 +7,9 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/stars/Marwin040/AmritaXMusic?style=for-the-badge&color=blue" alt="GitHub stars">
-  <img src="https://img.shields.io/github/forks/Marwin040/AmritaXMusic?style=for-the-badge&color=blue" alt="GitHub forks">
-  <img src="https://img.shields.io/github/issues/Marwin040/AmritaXMusic?style=for-the-badge&color=red" alt="GitHub issues">
+  <img src="https://img.shields.io/github/stars/Marwin040/AmritaXMusic?style=for-the-badge&color=pink" alt="GitHub stars">
+  <img src="https://img.shields.io/github/forks/Marwin040/AmritaXMusic?style=for-the-badge&color=pink" alt="GitHub forks">
+  <img src="https://img.shields.io/github/issues/Marwin040/AmritaXMusic?style=for-the-badge&color=yellow" alt="GitHub issues">
   <img src="https://img.shields.io/github/license/Marwin040/AmritaXMusic?style=for-the-badge&color=green" alt="GitHub license">
 </p>
 
