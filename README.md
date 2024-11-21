@@ -7,11 +7,13 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/stars/TeamAviax/AmritaXMusic?style=for-the-badge&color=blue" alt="GitHub stars">
-  <img src="https://img.shields.io/github/forks/TeamAviax/AmritaXMusic?style=for-the-badge&color=blue" alt="GitHub forks">
-  <img src="https://img.shields.io/github/issues/TeamAviax/AmritaXMusic?style=for-the-badge&color=red" alt="GitHubissues">
-  <img src="https://img.shields.io/github/license/TeamAviax/AmritaXMusic?style=for-the-badge&color=green" alt="GitHub license">
+  <img src="https://img.shields.io/github/stars/Marwin040/AmritaXMusic?style=for-the-badge&color=blue" alt="GitHub stars">
+  <img src="https://img.shields.io/github/forks/Marwin040/AmritaXMusic?style=for-the-badge&color=blue" alt="GitHub forks">
+  <img src="https://img.shields.io/github/issues/Marwin040/AmritaXMusic?style=for-the-badge&color=red" alt="GitHub issues">
+  <img src="https://img.shields.io/github/license/Marwin040/AmritaXMusic?style=for-the-badge&color=green" alt="GitHub license">
 </p>
+
+<h2 align="center">Delivering Superior Music Experience to Telegram</h2>
 
 <h3 align="center">
     ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ 」─
