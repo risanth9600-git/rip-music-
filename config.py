@@ -7,7 +7,7 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = 13569561
+API_ID = "13569561"
 API_HASH = "a689fce8b9f1c32c899b53811451385f"
 
 # Get your token from @BotFather on Telegram.
@@ -68,8 +68,8 @@ PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", 555))
 
 
 # Telegram audio and video file size limit (in bytes)
-TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", 104857600))
-TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
+TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", 904857600))
+TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 9073741824))
 # Checkout https://www.gbmb.org/mb-to-bytes for converting mb to bytes
 
 
@@ -93,10 +93,10 @@ START_IMG_URL = getenv(
     "START_IMG_URL", "https://envs.sh/kCQ.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://envs.sh/kCh.jpg"
+    "PING_IMG_URL", "https://envs.sh/k3F.jpg"
 )
-PLAYLIST_IMG_URL = "https://envs.sh/_IP.jpg"
-STATS_IMG_URL = "https://envs.sh/kcH.jpg"
+PLAYLIST_IMG_URL = "https://envs.sh/k3F.jpg"
+STATS_IMG_URL = "https://envs.sh/k3F.jpg"
 TELEGRAM_AUDIO_URL = "https://telegra.ph/file/51cb8a22e65caa4382879.jpg"
 TELEGRAM_VIDEO_URL = "https://telegra.ph/file/51cb8a22e65caa4382879.jpg"
 STREAM_IMG_URL = "https://te.legra.ph/file/bd995b032b6bd263e2cc9.jpg"
