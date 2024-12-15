@@ -7,22 +7,22 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = 13569561
+API_HASH = "a689fce8b9f1c32c899b53811451385f"
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = "7788838360:AAFbtcOHOiLJKvQYelMc3ZYGsFbpRpcti-o"
 # -------------------------------------------------------
 OWNER_USERNAME = getenv("OWNER_USERNAME","OwnerofTheDenki")
 # --------------------------------------------------------
 BOT_USERNAME = getenv("BOT_USERNAME","DenkiMusicBot")
 # --------------------------------------------------------
-BOT_NAME = getenv("BOT_NAME")
-# ---------------------------------------------------------
+BOT_NAME = getenv("𝟷𝟺𝟺 ᴍᴜsɪᴄ 🎶 ʙᴏᴛ")
+# ---------------------------13569561------------------------------
 
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = "mongodb+srv://ftyvfbgubhu7:hDZwwlNzlKBzls84@ameliamusicbot.f7dzw.mongodb.net/?retryWrites=true&w=majority&appName=AmeliaMusicbot"
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 
