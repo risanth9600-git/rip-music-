@@ -13,9 +13,9 @@ API_HASH = getenv("API_HASH")
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","The_Architect04")
+OWNER_USERNAME = getenv("OWNER_USERNAME","OwnerofTheDenki")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME","AmritaMusicBot")
+BOT_USERNAME = getenv("BOT_USERNAME","DenkiMusicBot")
 # --------------------------------------------------------
 BOT_NAME = getenv("BOT_NAME")
 # ---------------------------------------------------------
@@ -27,10 +27,10 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", -1002278361416))
+LOGGER_ID = int(getenv("LOGGER_ID",  -1002329626146))
 
 # Get this value from @PURVI_HELP_BOT on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 7224419362))
+OWNER_ID = int(getenv("OWNER_ID", 7491042679))
 
 
 # make your bots privacy from telegra.ph and put your url here 
@@ -44,7 +44,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Marwin040/AmritaXMusic",
+    "https://github.com/crazyworld-izzy/144",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
@@ -90,13 +90,13 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://envs.sh/5SL.jpg"
+    "START_IMG_URL", "https://envs.sh/kCQ.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://envs.sh/5S5.jpg"
+    "PING_IMG_URL", "https://envs.sh/kCh.jpg"
 )
 PLAYLIST_IMG_URL = "https://envs.sh/_IP.jpg"
-STATS_IMG_URL = "https://envs.sh/5SK.jpg"
+STATS_IMG_URL = "https://envs.sh/kcH.jpg"
 TELEGRAM_AUDIO_URL = "https://telegra.ph/file/51cb8a22e65caa4382879.jpg"
 TELEGRAM_VIDEO_URL = "https://telegra.ph/file/51cb8a22e65caa4382879.jpg"
 STREAM_IMG_URL = "https://te.legra.ph/file/bd995b032b6bd263e2cc9.jpg"
