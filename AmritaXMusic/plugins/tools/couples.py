@@ -14,8 +14,8 @@ from AmritaXMusic.mongo.couples_db import _get_image, get_couple
 POLICE = [
     [
         InlineKeyboardButton(
-            text="𝁘𝃜𝆆♡〭𝀈 ᴀᴅᴅ ᴍᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ 𝁘𝃜𝆆♡〭𝀈",
-            url=f"https://t.me/DenkiMusicBot?startgroup=true",
+            text=" ᴀᴅᴅ ᴍᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ",
+            url=f"https://t.me/Suchi_isai_bot?startgroup=true",
         ),
     ],
 ]
