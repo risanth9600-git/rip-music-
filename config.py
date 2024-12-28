@@ -22,7 +22,7 @@ BOT_NAME = getenv("⌜ꜱᴡᴇᴇᴛy ✘ ᴍᴜsɪᴄ 🕊⃝‌⌟" )
 
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = "mongodb+srv://ftyvfbgubhu7:hDZwwlNzlKBzls84ameliamusicbot.f7dzw.mongodb.net/?retryWrites=true&w=majority&appName=AmeliaMusicbot"
+MONGO_DB_URI = "mongodb+srv://ChikuAiDb:MysticalDevs@chikuaidb.1pfxx.mongodb.net/?retryWrites=true&w=majority&appName=ChikuAiDB"
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "17000000000"))
 
