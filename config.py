@@ -24,13 +24,13 @@ BOT_NAME = getenv("⌜ꜱᴡᴇᴇᴛy ✘ ᴍᴜsɪᴄ 🕊⃝‌⌟" )
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = "mongodb+srv://ftyvfbgubhu7:hDZwwlNzlKBzls84ameliamusicbot.f7dzw.mongodb.net/?retryWrites=true&w=majority&appName=AmeliaMusicbot"
 
-DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000000000))
+DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "17000000000"))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", -1002475141094-))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1002475141094"))
 
 # Get this value from PURVI_HELP_BOT on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID",5854691181 ))
+OWNER_ID = int(getenv("OWNER_ID", "854691181" ))
 
 
 # make your bots privacy from telegra.ph and put your url here 
@@ -74,7 +74,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 9073741824))
 
 
 # Get your pyrogram v2 session from @StringFatherBot on Telegram
-STRING1 =("BQF)oY5UAhm5GJxAqkfMHqdUFBe9GutHBOaeLPR6IROpQuMVrcAR2KFzFFjIt-QOUaf_uQid4T02MGSDFGEvISxbKkwSghU6pJqXB7BQ14Qb97V1PEySIeTLBc7sAntK29VexSC-sXOkdHWQ2v_5xapWPP3tI62clfiWCOjy9RYLW4UZBZ1FCDqnrEb6xyKP1cxE598ho7tLmKnWc0HRPXEWqpzlbZHKc5pK8bSESnIJSAkXpFHQD9mbFkj3EZ4RJocYdXpvIU9COJlG6bJhzqRXd5OAuvke8yCyYMa1JMbldu-Ah6maUe8gGiFtagVHxV4Cenik6bcgsfGyW5-QnjYktGdNmDQAAAAF3M7q6AA")
+STRING1 =("BQFoY5UAhm5GJxAqkfMHqdUFBe9GutHBOaeLPR6IROpQuMVrcAR2KFzFFjIt-QOUaf_uQid4T02MGSDFGEvISxbKkwSghU6pJqXB7BQ14Qb97V1PEySIeTLBc7sAntK29VexSC-sXOkdHWQ2v_5xapWPP3tI62clfiWCOjy9RYLW4UZBZ1FCDqnrEb6xyKP1cxE598ho7tLmKnWc0HRPXEWqpzlbZHKc5pK8bSESnIJSAkXpFHQD9mbFkj3EZ4RJocYdXpvIU9COJlG6bJhzqRXd5OAuvke8yCyYMa1JMbldu-Ah6maUe8gGiFtagVHxV4Cenik6bcgsfGyW5-QnjYktGdNmDQAAAAF3M7q6AA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
