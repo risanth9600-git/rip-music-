@@ -27,10 +27,10 @@ MONGO_DB_URI = "mongodb+srv://ChikuAiDb:MysticalDevs@chikuaidb.1pfxx.mongodb.net
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "17000000000"))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", "-1002463912344"))
+LOGGER_ID = int(getenv("LOGGER_ID", -1002463912344))
 
 # Get this value from PURVI_HELP_BOT on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", "5854691181" ))
+OWNER_ID = int(getenv("OWNER_ID", 5854691181 ))
 
 
 # make your bots privacy from telegra.ph and put your url here 
