@@ -41,11 +41,11 @@ async def init():
     await userbot.start()
     await RAUSHAN.start()
     await RAUSHAN.decorators()
-    LOGGER("AmritaXMusic").info("╔═════ஜ۩۞۩ஜ════╗\n  ♨️𝗠𝗔𝗗𝗘 𝗕𝗬 𝙏𝙝𝙚 𝘼𝙧𝙘𝙝𝙞𝙩𝙚𝙘𝙩♨️\n╚═════ஜ۩۞۩ஜ════╝")
+    LOGGER("AmritaXMusic").info("╔═════ஜ۩۞۩ஜ════╗\n  ♨️𝗠𝗔𝗗𝗘 𝗕𝗬𝐓ᴇᴀᴍ 𝗩ᴀᴍᴘɪʀᴇ 𝐍ᴇᴛᴡᴏʀᴋ♨️\n╚═════ஜ۩۞۩ஜ════╝")
     await idle()
     await app.stop()
     await userbot.stop()
-    LOGGER("AmritaXMusic").info("╔═════ஜ۩۞۩ஜ════╗\n  ♨️𝗠𝗔𝗗𝗘 𝗕𝗬 𝙏𝙝𝙚 𝘼𝙧𝙘𝙝𝙞𝙩𝙚𝙘𝙩♨️\n╚═════ஜ۩۞۩ஜ════╝")
+    LOGGER("AmritaXMusic").info("╔═════ஜ۩۞۩ஜ════╗\n  ♨️𝗠𝗔𝗗𝗘 𝗕𝗬𝐓ᴇᴀᴍ 𝗩ᴀᴍᴘɪʀᴇ 𝐍ᴇᴛᴡᴏʀᴋ♨️\n╚═════ஜ۩۞۩ஜ════╝")
 
 
 if __name__ == "__main__":
