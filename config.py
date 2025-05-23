@@ -13,7 +13,7 @@ API_HASH = "bcf678e0b1a4ffd5f8e6d11f389fd428"
 # Get your token from BotFather on Telegram.
 BOT_TOKEN = "6671586333:AAGyjGsFaYRtKWvv5gTwmD3V8SBHGwJx29E"
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","@KING_OF_LK_420")
+OWNER_USERNAME = getenv("OWNER_USERNAME","@Its_me_risanth")
 # --------------------------------------------------------
 BOT_USERNAME = getenv("BOT_USERNAME","@LoVeMuSic_HearTs_BoT")
 # --------------------------------------------------------
@@ -30,7 +30,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "17000000000"))
 LOGGER_ID = int(getenv("LOGGER_ID", -1002475141094))
 
 # Get this value from PURVI_HELP_BOT on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 6777334997 ))
+OWNER_ID = int(getenv("OWNER_ID" 5854691181))
 
 
 # make your bots privacy from telegra.ph and put your url here 
